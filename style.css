@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+.game {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:52px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    background-color: beige;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+} 
+
+button:focus {
+    outline: none;
+}
+
+.gridContainer {
+    
+    display: inline-grid;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    width: 600px;
+    height: 500px;
+}
+
+.gridItem{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.activated {
+    background-color: white;
+}
