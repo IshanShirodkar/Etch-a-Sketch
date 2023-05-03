@@ -24,11 +24,13 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size:52px;
+    color :#ffae00;
 }
 
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    color:#ffae00;
 }
 
 button {
@@ -36,12 +38,12 @@ button {
     border: none;
     border-radius: 6px;
     padding: 10px 16px;
-    background-color: #333333;
+    background-color:#ffae00;
 }
 
 button:hover {
     cursor: pointer;
-    background-color: ffae00;
+    background-color:#333333;
 } 
 
 button:focus {
@@ -63,5 +65,5 @@ button:focus {
 }
 
 .activated {
-    background-color: ffae00;
+    background-color: #ffae00;
 }
